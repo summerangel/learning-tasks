@@ -1,0 +1,39 @@
+body {
+  position: relative;
+  margin: 0; }
+
+h1 {
+  width: 195px;
+  text-align: center;
+  min-height: 800px;
+  background-color: dodgerblue;
+  margin-top: 0;
+  color: #fff;
+  padding-top: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h2:first-child {
+  margin-top: 0;
+  padding-top: 20px; }
+
+.content-wrap {
+  padding-left: 220px;
+  min-height: 800px; }
+
+.item-wrap {
+  font-weight: bold;
+  margin-right: 40px; }
+  .item-wrap .value {
+    font-weight: 300;
+    margin-left: 10px; }
+
+.power-name {
+  font-weight: bold; }
+
+.power-value {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=style_2.css.map */

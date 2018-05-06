@@ -1,0 +1,19 @@
+.item-wrap {
+  font-weight: bold;
+  margin-right: 40px;
+}
+.item-wrap .value {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.power-name {
+  font-weight: bold;
+}
+
+.power-value {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style_1.css.map */
