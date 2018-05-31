@@ -1,0 +1,98 @@
+.position-wrapper .left {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: red;
+  color: #ffffff; }
+.position-wrapper .right {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: blue;
+  color: #ffffff; }
+.position-wrapper .middle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: greenyellow;
+  color: #ffffff; }
+.position-wrapper .content {
+  position: relative;
+  height: 50px; }
+  .position-wrapper .content .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%; }
+  .position-wrapper .content .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%; }
+.position-wrapper .content2 {
+  position: relative;
+  height: 50px; }
+  .position-wrapper .content2 .left {
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .position-wrapper .content2 .right {
+    position: absolute;
+    left: 150px;
+    right: 0;
+    top: 0; }
+.position-wrapper .content3 {
+  position: relative;
+  width: 100%;
+  height: 50px; }
+  .position-wrapper .content3 .left {
+    position: absolute;
+    left: 0;
+    right: 150px;
+    top: 0; }
+  .position-wrapper .content3 .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px; }
+.position-wrapper .content4 {
+  position: relative;
+  width: 100%;
+  height: 50px; }
+  .position-wrapper .content4 .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px; }
+  .position-wrapper .content4 .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px; }
+  .position-wrapper .content4 .middle {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    right: 150px; }
+.position-wrapper .content5 {
+  position: relative;
+  width: 100%;
+  height: 50px; }
+  .position-wrapper .content5 .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px; }
+  .position-wrapper .content5 .right {
+    position: absolute;
+    left: 300px;
+    right: 0;
+    top: 0; }
+  .position-wrapper .content5 .middle {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    width: 150px; }
+
+/*# sourceMappingURL=Position.css.map */

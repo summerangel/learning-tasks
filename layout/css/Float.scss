@@ -1,0 +1,96 @@
+.float-wrapper {
+  .left {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: red;
+    color: #ffffff;
+  }
+  .right {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: blue;
+    color: #ffffff;
+  }
+  .middle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: greenyellow;
+    color: #ffffff;
+  }
+  .content {
+    width: 100%;
+    .left {
+      width: 30%;
+      float: left;
+    }
+    .right {
+      width: 70%;
+      float: left;
+    }
+    &:after {
+      content: '';
+      display: inline-block;
+      height: 0;
+      width: 0;
+      clear: both;
+    }
+  }
+  .content2 {
+    width: 100%;
+    .left {
+      width: 150px;
+      float: left;
+    }
+    .right {
+      width: 100%;
+    }
+    &:after {
+      content: '';
+      display: inline-block;
+      clear: both;
+      height: 0;
+      width: 0;
+    }
+  }
+  .content3 {
+    width: 100%;
+    .left {
+      width: 100%;
+    }
+    .right {
+      width: 150px;
+      float: right;
+    }
+  }
+  .content4 {
+    width: 100%;
+    .left {
+      width: 150px;
+      float: left;
+    }
+    .right {
+      width: 150px;
+      float: right;
+    }
+    .middle {
+      width: 100%;
+    }
+  }
+  .content5 {
+    width: 100%;
+    .left {
+      width: 150px;
+      float: left;
+    }
+    .right {
+      width: 100%;
+    }
+    .middle {
+      width: 150px;
+      float: left;
+    }
+  }
+}

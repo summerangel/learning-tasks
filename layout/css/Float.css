@@ -1,0 +1,74 @@
+.float-wrapper .left {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: red;
+  color: #ffffff; }
+.float-wrapper .right {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: blue;
+  color: #ffffff; }
+.float-wrapper .middle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: greenyellow;
+  color: #ffffff; }
+.float-wrapper .content {
+  width: 100%; }
+  .float-wrapper .content .left {
+    width: 30%;
+    float: left; }
+  .float-wrapper .content .right {
+    width: 70%;
+    float: left; }
+  .float-wrapper .content:after {
+    content: '';
+    display: inline-block;
+    height: 0;
+    width: 0;
+    clear: both; }
+.float-wrapper .content2 {
+  width: 100%; }
+  .float-wrapper .content2 .left {
+    width: 150px;
+    float: left; }
+  .float-wrapper .content2 .right {
+    width: 100%; }
+  .float-wrapper .content2:after {
+    content: '';
+    display: inline-block;
+    clear: both;
+    height: 0;
+    width: 0; }
+.float-wrapper .content3 {
+  width: 100%; }
+  .float-wrapper .content3 .left {
+    width: 100%; }
+  .float-wrapper .content3 .right {
+    width: 150px;
+    float: right; }
+.float-wrapper .content4 {
+  width: 100%; }
+  .float-wrapper .content4 .left {
+    width: 150px;
+    float: left; }
+  .float-wrapper .content4 .right {
+    width: 150px;
+    float: right; }
+  .float-wrapper .content4 .middle {
+    width: 100%; }
+.float-wrapper .content5 {
+  width: 100%; }
+  .float-wrapper .content5 .left {
+    width: 150px;
+    float: left; }
+  .float-wrapper .content5 .right {
+    width: 100%; }
+  .float-wrapper .content5 .middle {
+    width: 150px;
+    float: left; }
+
+/*# sourceMappingURL=Float.css.map */

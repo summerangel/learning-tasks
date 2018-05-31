@@ -1,0 +1,54 @@
+.flexbox-wrapper .left {
+  background-color: red;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+.flexbox-wrapper .right {
+  background-color: blue;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+.flexbox-wrapper .middle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: greenyellow;
+  color: #ffffff; }
+.flexbox-wrapper .content {
+  display: flex; }
+  .flexbox-wrapper .content .left {
+    flex-basis: 30%; }
+  .flexbox-wrapper .content .right {
+    flex-basis: 70%; }
+.flexbox-wrapper .content2 {
+  display: flex; }
+  .flexbox-wrapper .content2 .left {
+    width: 150px; }
+  .flexbox-wrapper .content2 .right {
+    flex: 1; }
+.flexbox-wrapper .content3 {
+  display: flex; }
+  .flexbox-wrapper .content3 .left {
+    flex: 1; }
+  .flexbox-wrapper .content3 .right {
+    flex-basis: 150px; }
+.flexbox-wrapper .content4 {
+  display: flex; }
+  .flexbox-wrapper .content4 .left {
+    flex-basis: 150px; }
+  .flexbox-wrapper .content4 .right {
+    flex-basis: 150px; }
+  .flexbox-wrapper .content4 .middle {
+    flex: 1; }
+.flexbox-wrapper .content5 {
+  display: flex; }
+  .flexbox-wrapper .content5 .left {
+    flex-basis: 150px; }
+  .flexbox-wrapper .content5 .right {
+    flex: 1; }
+  .flexbox-wrapper .content5 .middle {
+    flex-basis: 150px; }
+
+/*# sourceMappingURL=Flexbox.css.map */
