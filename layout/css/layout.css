@@ -1,0 +1,59 @@
+.layout-wrapper .head-wrap {
+  background-color: black;
+  color: #ffffff;
+  width: 100%; }
+  .layout-wrapper .head-wrap .head-content {
+    position: relative;
+    text-align: left;
+    width: 960px;
+    margin: auto; }
+    .layout-wrapper .head-wrap .head-content .logo {
+      font-size: 18px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .layout-wrapper .head-wrap .head-content > ul {
+      position: absolute;
+      top: 0;
+      right: 0;
+      list-style: none; }
+      .layout-wrapper .head-wrap .head-content > ul > li {
+        float: left; }
+        .layout-wrapper .head-wrap .head-content > ul > li > a {
+          margin-left: 10px;
+          text-decoration: underline;
+          color: #ffffff;
+          font-size: 14px; }
+.layout-wrapper .banner-wrap {
+  width: 100%;
+  height: 150px;
+  background-color: green;
+  text-align: center; }
+  .layout-wrapper .banner-wrap .pagination-wrap {
+    margin: auto;
+    width: 960px;
+    height: 150px;
+    position: relative; }
+    .layout-wrapper .banner-wrap .pagination-wrap .pagination {
+      position: absolute;
+      right: 0;
+      bottom: 5px;
+      width: 100%; }
+      .layout-wrapper .banner-wrap .pagination-wrap .pagination > ul {
+        list-style: none; }
+        .layout-wrapper .banner-wrap .pagination-wrap .pagination > ul > li {
+          float: right; }
+          .layout-wrapper .banner-wrap .pagination-wrap .pagination > ul > li > a {
+            margin-left: 5px;
+            color: #333333;
+            background-color: #ffffff;
+            opacity: .5;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: center; }
+            .layout-wrapper .banner-wrap .pagination-wrap .pagination > ul > li > a:hover {
+              padding-top: 10px;
+              opacity: 1; }
+.layout-wrapper .content-wrap {
+  width: 100%; }
+
+/*# sourceMappingURL=layout.css.map */
